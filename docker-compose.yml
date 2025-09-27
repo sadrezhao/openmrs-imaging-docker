@@ -23,6 +23,10 @@ services:
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost/"]
       timeout: 5s
+    volumes:
+      - ./imaging/routes.registry.json:/usr/share/nginx/html/routes.registry.json
+      - ./imaging/importmap.json:/usr/share/nginx/html/importmap.json
+      - ./imaging/openmrs-esm-patient-imaging-app-1.0.3:/usr/share/nginx/html/openmrs-esm-patient-imaging-app-1.0.3
     depends_on:
       - backend
 
