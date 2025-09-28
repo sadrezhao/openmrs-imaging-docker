@@ -9,6 +9,7 @@ This project provides a Docker Compose setup for the OpenMRS 3.x Imaging fronten
 Update your orthanc setup by replacing and adding the following files:
 
 - Replace/modify the existing `orthanc.json` in `/etc/orthanc` directory with the one from this project.
+
 - Copy the Orthanc worklist script:
 
     ```bash
@@ -18,6 +19,42 @@ Update your orthanc setup by replacing and adding the following files:
 
     ```bash
     cp python.json /etc/orthanc/
+    ``` 
+
+## Orthanc Configuration in OpenMrS
+
+To connect with Orthanc, add the following configuration:
+
+    - **URL**: `http://host.docker.internal:ORTHANC_PORT` 
+      > **Note**: Not change `host.docker.internal`
+    - **Proxy URL**: `Your local orthanc URL`
+    - **User**: `orthanc`
+    - **Password**: `orthanc`
+
+![Orthanc Configuration](/images/orthancConfiguration.png)
+
+
+## Running the Container with Docker
+
+- Start the Docker container:
+
+    ```bash
+    docker-compose up
+    ```
+
+    > **Note**  
+    > - he installation process may take some time. You can monitor the progress of the setup by visiting
+    > - In some cases, you may need to stop the container and restart it to complete the setup successfully.
+
+    ```bash
+    http://localhost/openmrs/initialsetup
+    ```
+    ![Installation](/images/installProcess.png)
+
+- Remove the container
+
+    ```bash
+    docker-compose down    
     ```
 
 ## Running the Imaging Module
@@ -25,7 +62,8 @@ Update your orthanc setup by replacing and adding the following files:
 You have two options for running the Imaging module:
 
 - Run via Docker (frontend image)
-    (Currently incomplete)
+
+  > **Note** (Currently incomplete)
 
     - Start the frontend:
 
@@ -54,6 +92,10 @@ You have two options for running the Imaging module:
     - uicommons-2.26.0.omod
     - uiframework-4.0.0.omod
     - appframework-2.18.0.omod
+
+Link: http://localhost:8080/openmrs/admin/modules/module.list#markAllAsRead
+
+![Upload moudles](/images/uploadModule.png)
 
 ## Links:
     - Imaging frondend for OpenMRS3.x: https://github.com/sadrezhao/openmrs-esm-patient-imaging-app
