@@ -25,11 +25,11 @@ Update your orthanc setup by replacing and adding the following files:
 
 To connect with Orthanc, add the following configuration:
 
-    - **URL**: `http://host.docker.internal:ORTHANC_PORT` 
-      > **Note**: Not change `host.docker.internal`
-    - **Proxy URL**: `Your local orthanc URL`
-    - **User**: `orthanc`
-    - **Password**: `orthanc`
+- **URL**: `http://host.docker.internal:ORTHANC_PORT` 
+  > **Note**: Not change `host.docker.internal`
+- **Proxy URL**: `Your local orthanc URL`
+- **User**: `orthanc`
+- **Password**: `orthanc`
 
 ![Orthanc Configuration](/images/orthancConfiguration.png)
 
