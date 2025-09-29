@@ -77,17 +77,21 @@ You have two options for running the Imaging module:
         http://localhost:8080/openmrs/spa
         ```
 
-- Run the frontend locally (with Docker backend):
-    To run the frontend on your local machine while using the OpenMRS backend running in Docker for development purposes, use:
+- Run the frontend locally (using Docker backend):
+    
+    You can run run the frontend on your local machine while connecting to the OpenMRS backend running in Docker. First clone the imaging application from [openmrs-esm-patient-imaging-app] https://github.com/sadrezhao/openmrs-esm-patient-imaging-app:
 
     ```bash
+    git clone https://github.com/sadrezhao/openmrs-esm-patient-imaging-app.git
+    cd openmrs-esm-patient-imaging-app
+    yarn install
     npm start -- --backend http://localhost:3030/
     ```
 
 ## Upload the imaging and necessay modules:
  Once the application is running, you will need to upload the required OpenMRS modules from the 'modules' folder within this project:
 
-- imaging-1.1.2-SNAPSHOT.omod
+- imaging-1.1.3-SNAPSHOT.omod
 - appui-1.18.0.omod
 - uicommons-2.26.0.omod
 - uiframework-4.0.0.omod
