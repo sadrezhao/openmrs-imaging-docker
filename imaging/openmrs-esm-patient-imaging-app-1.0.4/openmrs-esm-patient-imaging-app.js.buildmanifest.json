@@ -1,0 +1,815 @@
+{
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 5130,
+      "sizes": {
+        "javascript": 5130
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "55.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "38e2301f88eae53d",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: default)",
+      "size": 34708,
+      "sizes": {
+        "javascript": 34708
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "67.js"
+      ],
+      "auxiliaryFiles": [
+        "67.js.map"
+      ],
+      "hash": "5026fad147f0063a",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: default)",
+      "size": 42,
+      "sizes": {
+        "consume-shared": 42
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "abb69ff60d260342",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: defaultVendors)",
+      "size": 457365,
+      "sizes": {
+        "javascript": 457365
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "76.js"
+      ],
+      "auxiliaryFiles": [
+        "76.js.map"
+      ],
+      "hash": "01d86beb2e563fc3",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 255569,
+      "sizes": {
+        "javascript": 255569
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "91.js"
+      ],
+      "auxiliaryFiles": [
+        "91.js.map"
+      ],
+      "hash": "6142b61ccb0a1f18",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 5130,
+      "sizes": {
+        "javascript": 5130
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "99.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "dd792a69d8ddd596",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 169006,
+      "sizes": {
+        "javascript": 157259,
+        "asset": 11747
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app"
+      ],
+      "files": [
+        "116.js"
+      ],
+      "auxiliaryFiles": [
+        "063e5be86d03f2c5.png",
+        "116.js.map",
+        "742c3f074ec3b560.png",
+        "780dc50ae63afe5b.png",
+        "eca6caabc443584c.png"
+      ],
+      "hash": "7fb3783855aa418c",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: defaultVendors)",
+      "size": 163792,
+      "sizes": {
+        "javascript": 163792
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "184.js"
+      ],
+      "auxiliaryFiles": [
+        "184.js.map"
+      ],
+      "hash": "7c6f4b0ca002f343",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 5130,
+      "sizes": {
+        "javascript": 5130
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "197.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "9219e2138dfd4f4f",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 8436,
+      "sizes": {
+        "javascript": 8436
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "213.js"
+      ],
+      "auxiliaryFiles": [
+        "213.js.map"
+      ],
+      "hash": "7a73b9a6ee85fca2",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 17308,
+      "sizes": {
+        "javascript": 17308
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "229.js"
+      ],
+      "auxiliaryFiles": [
+        "229.js.map"
+      ],
+      "hash": "f99e8d9756a4db7c",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 8480,
+      "sizes": {
+        "javascript": 8480
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "233.js"
+      ],
+      "auxiliaryFiles": [
+        "233.js.map"
+      ],
+      "hash": "df9abdc96e3c2d3b",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 1748,
+      "sizes": {
+        "javascript": 1748
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "300.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "8c70464e9eff9f9a",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 20549,
+      "sizes": {
+        "javascript": 42,
+        "share-init": 252,
+        "runtime": 20255
+      },
+      "names": [
+        "@openmrs/esm-patient-imaging-app"
+      ],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app"
+      ],
+      "files": [
+        "openmrs-esm-patient-imaging-app.js"
+      ],
+      "auxiliaryFiles": [
+        "openmrs-esm-patient-imaging-app.js.map"
+      ],
+      "hash": "1c86421ac7182d42",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 5130,
+      "sizes": {
+        "javascript": 5130
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "335.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "6ce3a1072b8de888",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 7160,
+      "sizes": {
+        "javascript": 7160
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "353.js"
+      ],
+      "auxiliaryFiles": [
+        "353.js.map"
+      ],
+      "hash": "c93122a1ab6330c7",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 6611436,
+      "sizes": {
+        "javascript": 6611436
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "389.js"
+      ],
+      "auxiliaryFiles": [
+        "389.js.map"
+      ],
+      "hash": "6659e219546b93c8",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 8434,
+      "sizes": {
+        "javascript": 8434
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "415.js"
+      ],
+      "auxiliaryFiles": [
+        "415.js.map"
+      ],
+      "hash": "353f73758727d6c2",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 36535,
+      "sizes": {
+        "javascript": 36535
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "491.js"
+      ],
+      "auxiliaryFiles": [
+        "491.js.map"
+      ],
+      "hash": "e27677954384f558",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: default)",
+      "size": 210,
+      "sizes": {
+        "consume-shared": 210
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [],
+      "auxiliaryFiles": [],
+      "hash": "743970d845ed1141",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 24556,
+      "sizes": {
+        "javascript": 24556
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "507.js"
+      ],
+      "auxiliaryFiles": [
+        "507.js.map"
+      ],
+      "hash": "3446f9361dc2c83e",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 7120,
+      "sizes": {
+        "javascript": 7120
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "540.js"
+      ],
+      "auxiliaryFiles": [
+        "540.js.map"
+      ],
+      "hash": "de0a16546c37fa05",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 41434,
+      "sizes": {
+        "javascript": 41434
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "541.js"
+      ],
+      "auxiliaryFiles": [
+        "541.js.map"
+      ],
+      "hash": "0a1f6760137647a9",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 36434,
+      "sizes": {
+        "javascript": 36434
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "581.js"
+      ],
+      "auxiliaryFiles": [
+        "581.js.map"
+      ],
+      "hash": "539744ce95b493ee",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 5130,
+      "sizes": {
+        "javascript": 5130
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "652.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "0a25a190509c0396",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 17908,
+      "sizes": {
+        "javascript": 17908
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "680.js"
+      ],
+      "auxiliaryFiles": [
+        "680.js.map"
+      ],
+      "hash": "948b3266d8b9748b",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 23318,
+      "sizes": {
+        "javascript": 23318
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "727.js"
+      ],
+      "auxiliaryFiles": [
+        "727.js.map"
+      ],
+      "hash": "a41982a4924ac846",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 228136,
+      "sizes": {
+        "javascript": 228136
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app"
+      ],
+      "files": [
+        "732.js"
+      ],
+      "auxiliaryFiles": [
+        "732.js.map"
+      ],
+      "hash": "af99e00c0744d881",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 7167334,
+      "sizes": {
+        "consume-shared": 252,
+        "javascript": 7134312,
+        "asset": 11747,
+        "share-init": 252,
+        "runtime": 20771
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "auxiliaryFiles": [
+        "063e5be86d03f2c5.png",
+        "742c3f074ec3b560.png",
+        "780dc50ae63afe5b.png",
+        "eca6caabc443584c.png",
+        "main.js.map"
+      ],
+      "hash": "d5fa33b9a7d58836",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 8786,
+      "sizes": {
+        "javascript": 8786
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "826.js"
+      ],
+      "auxiliaryFiles": [
+        "826.js.map"
+      ],
+      "hash": "f426898dc506516d",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "reused as split chunk (cache group: defaultVendors)",
+      "size": 99434,
+      "sizes": {
+        "javascript": 99434
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "935.js"
+      ],
+      "auxiliaryFiles": [
+        "935.js.map"
+      ],
+      "hash": "ae104ca122d229fb",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 137481,
+      "sizes": {
+        "javascript": 137481
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "961.js"
+      ],
+      "auxiliaryFiles": [
+        "961.js.map"
+      ],
+      "hash": "ca7c67c413a5f4b9",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 39684,
+      "sizes": {
+        "javascript": 39684
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "962.js"
+      ],
+      "auxiliaryFiles": [
+        "962.js.map"
+      ],
+      "hash": "47463401018f30f2",
+      "childrenByOrder": {}
+    }
+  ]
+}

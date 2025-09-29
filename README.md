@@ -47,7 +47,7 @@ To connect with Orthanc, add the following configuration:
     > - In some cases, you may need to stop the container and restart it to complete the setup successfully.
 
     ```bash
-    http://localhost/openmrs/initialsetup
+    http://localhost:3030/openmrs/initialsetup
     ```
     ![Installation](/images/installProcess.png)
 
@@ -63,8 +63,6 @@ You have two options for running the Imaging module:
 
 - Run via Docker (frontend image)
 
-  > **Note** (Currently incomplete)
-
     - Start the frontend:
 
         ```bash
@@ -74,7 +72,7 @@ You have two options for running the Imaging module:
     - Validate backend connection:
 
         ```bash
-        http://localhost:8080/openmrs/spa
+        http://localhost:3030/openmrs/
         ```
 
 - Run the frontend locally (using Docker backend):
