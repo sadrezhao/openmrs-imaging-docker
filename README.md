@@ -103,7 +103,7 @@ Link: http://localhost:8080/openmrs/admin/modules/module.list#markAllAsRead
 - Imaging frondend for OpenMRS3.x: https://github.com/sadrezhao/openmrs-esm-patient-imaging-app
 - Imaging module (GUI+backend) for OpenMRS2.x: https://github.com/sadrezhao/openmrs-module-imaging
 - Orthanc server: https://www.orthanc-server.com/download.php
-- Imaging frontend (NPM release): https://www.npmjs.com/package/@zhaosadre/openmrs-esm-patient-imaging-app
+- Imaging frontend (NPM release): https://www.npmjs.com/package/@zhaosadre/esm-patient-imaging-app
 - Imaging backend (release): https://github.com/sadrezhao/openmrs-module-imaging/releases
 
 
