@@ -40,6 +40,6 @@
         "@openmrs/esm-patient-vitals-app": "./openmrs-esm-patient-vitals-app-11.3.0/openmrs-esm-patient-vitals-app.js",
         "@openmrs/esm-fast-data-entry-app": "./openmrs-esm-fast-data-entry-app-1.3.1/openmrs-esm-fast-data-entry-app.js",
         "@openmrs/esm-form-builder-app": "./openmrs-esm-form-builder-app-3.3.1/openmrs-esm-form-builder-app.js",
-        "@openmrs/esm-patient-imaging-app": "./openmrs-esm-patient-imaging-app-1.0.4/openmrs-esm-patient-imaging-app.js"
+        "@openmrs/esm-patient-imaging-app": "./openmrs-esm-patient-imaging-app-1.0.5/openmrs-esm-patient-imaging-app.js"
     }
 }

@@ -43,7 +43,7 @@ To connect with Orthanc, add the following configuration:
     ```
 
     > **Note**  
-    > - he installation process may take some time. You can monitor the progress of the setup by visiting
+    > - The installation process may take some time. You can monitor the progress of the setup by visiting
     > - In some cases, you may need to stop the container and restart it to complete the setup successfully.
 
     ```bash
@@ -74,6 +74,14 @@ You have two options for running the Imaging module:
         ```bash
         http://localhost:3030/openmrs/
         ```
+    > **Note:**
+    You may experience display issues within the application after importing the new module into Docker or updating to a new release. To resolve these issues, follow these steps:
+    - Stop the containers: `docker-compose down`
+    - Restart the containers: `docker-compose up`
+    - If problems persist, clear your browser data:
+        - Cookies and site data (e.g., 134 MB)
+        - Cached files and pages (e.g., 393 MB)
+
 
 - Run the frontend locally (using Docker backend):
     
@@ -98,6 +106,8 @@ You have two options for running the Imaging module:
 Link: http://localhost:8080/openmrs/admin/modules/module.list#markAllAsRead
 
 ![Upload moudles](/images/uploadModule.png)
+
+> **Note:** You need to click `Start All` to update all modules.
 
 ## Links:
 - Imaging frondend for OpenMRS3.x: https://github.com/sadrezhao/openmrs-esm-patient-imaging-app

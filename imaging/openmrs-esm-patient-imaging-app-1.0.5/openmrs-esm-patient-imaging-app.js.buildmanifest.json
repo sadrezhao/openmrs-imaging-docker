@@ -5,9 +5,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 5130,
+      "size": 5306,
       "sizes": {
-        "javascript": 5130
+        "javascript": 5306
       },
       "names": [],
       "idHints": [],
@@ -19,7 +19,7 @@
         "55.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "38e2301f88eae53d",
+      "hash": "a3a38189d2c83e85",
       "childrenByOrder": {}
     },
     {
@@ -92,7 +92,7 @@
       "auxiliaryFiles": [
         "76.js.map"
       ],
-      "hash": "01d86beb2e563fc3",
+      "hash": "c6713254a037fa09",
       "childrenByOrder": {}
     },
     {
@@ -127,9 +127,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 5130,
+      "size": 5306,
       "sizes": {
-        "javascript": 5130
+        "javascript": 5306
       },
       "names": [],
       "idHints": [],
@@ -141,7 +141,7 @@
         "99.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "dd792a69d8ddd596",
+      "hash": "08850a8b480f4965",
       "childrenByOrder": {}
     },
     {
@@ -149,9 +149,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 169006,
+      "size": 172452,
       "sizes": {
-        "javascript": 157259,
+        "javascript": 160705,
         "asset": 11747
       },
       "names": [],
@@ -169,7 +169,7 @@
         "780dc50ae63afe5b.png",
         "eca6caabc443584c.png"
       ],
-      "hash": "7fb3783855aa418c",
+      "hash": "1a9e31423798c746",
       "childrenByOrder": {}
     },
     {
@@ -204,9 +204,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 5130,
+      "size": 5306,
       "sizes": {
-        "javascript": 5130
+        "javascript": 5306
       },
       "names": [],
       "idHints": [],
@@ -218,7 +218,7 @@
         "197.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "9219e2138dfd4f4f",
+      "hash": "ed405788e952ca75",
       "childrenByOrder": {}
     },
     {
@@ -298,9 +298,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 1748,
+      "size": 1924,
       "sizes": {
-        "javascript": 1748
+        "javascript": 1924
       },
       "names": [],
       "idHints": [],
@@ -312,7 +312,7 @@
         "300.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "8c70464e9eff9f9a",
+      "hash": "68341a18fabfe37b",
       "childrenByOrder": {}
     },
     {
@@ -320,11 +320,11 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 20549,
+      "size": 20525,
       "sizes": {
         "javascript": 42,
         "share-init": 252,
-        "runtime": 20255
+        "runtime": 20231
       },
       "names": [
         "@openmrs/esm-patient-imaging-app"
@@ -339,7 +339,7 @@
       "auxiliaryFiles": [
         "openmrs-esm-patient-imaging-app.js.map"
       ],
-      "hash": "1c86421ac7182d42",
+      "hash": "a01a5e4c81504ca9",
       "childrenByOrder": {}
     },
     {
@@ -347,9 +347,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 5130,
+      "size": 5306,
       "sizes": {
-        "javascript": 5130
+        "javascript": 5306
       },
       "names": [],
       "idHints": [],
@@ -361,7 +361,7 @@
         "335.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "6ce3a1072b8de888",
+      "hash": "e6682281c00209e4",
       "childrenByOrder": {}
     },
     {
@@ -385,7 +385,7 @@
       "auxiliaryFiles": [
         "353.js.map"
       ],
-      "hash": "c93122a1ab6330c7",
+      "hash": "017b6e2597f07c12",
       "childrenByOrder": {}
     },
     {
@@ -412,7 +412,7 @@
       "auxiliaryFiles": [
         "389.js.map"
       ],
-      "hash": "6659e219546b93c8",
+      "hash": "8b36275e51b230b7",
       "childrenByOrder": {}
     },
     {
@@ -460,7 +460,7 @@
       "auxiliaryFiles": [
         "491.js.map"
       ],
-      "hash": "e27677954384f558",
+      "hash": "2c4376f53d431d9d",
       "childrenByOrder": {}
     },
     {
@@ -529,7 +529,7 @@
       "auxiliaryFiles": [
         "540.js.map"
       ],
-      "hash": "de0a16546c37fa05",
+      "hash": "6f6d7a851d5c4f9d",
       "childrenByOrder": {}
     },
     {
@@ -577,7 +577,7 @@
       "auxiliaryFiles": [
         "581.js.map"
       ],
-      "hash": "539744ce95b493ee",
+      "hash": "f7f6277b472a4f9f",
       "childrenByOrder": {}
     },
     {
@@ -585,9 +585,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 5130,
+      "size": 5306,
       "sizes": {
-        "javascript": 5130
+        "javascript": 5306
       },
       "names": [],
       "idHints": [],
@@ -599,7 +599,7 @@
         "652.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "0a25a190509c0396",
+      "hash": "bc37e2d0db732c9d",
       "childrenByOrder": {}
     },
     {
@@ -673,7 +673,7 @@
       "auxiliaryFiles": [
         "732.js.map"
       ],
-      "hash": "af99e00c0744d881",
+      "hash": "ef347842b8e86966",
       "childrenByOrder": {}
     },
     {
@@ -681,13 +681,13 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 7167334,
+      "size": 7170756,
       "sizes": {
         "consume-shared": 252,
-        "javascript": 7134312,
+        "javascript": 7137758,
         "asset": 11747,
         "share-init": 252,
-        "runtime": 20771
+        "runtime": 20747
       },
       "names": [
         "main"
@@ -706,7 +706,7 @@
         "eca6caabc443584c.png",
         "main.js.map"
       ],
-      "hash": "d5fa33b9a7d58836",
+      "hash": "757e820a9b2fd35e",
       "childrenByOrder": {}
     },
     {
@@ -757,7 +757,7 @@
       "auxiliaryFiles": [
         "935.js.map"
       ],
-      "hash": "ae104ca122d229fb",
+      "hash": "e7b9750d43224bba",
       "childrenByOrder": {}
     },
     {
@@ -784,7 +784,7 @@
       "auxiliaryFiles": [
         "961.js.map"
       ],
-      "hash": "ca7c67c413a5f4b9",
+      "hash": "57cf1d76ebf22106",
       "childrenByOrder": {}
     },
     {
@@ -808,7 +808,7 @@
       "auxiliaryFiles": [
         "962.js.map"
       ],
-      "hash": "47463401018f30f2",
+      "hash": "8319d604211dcd15",
       "childrenByOrder": {}
     }
   ]
