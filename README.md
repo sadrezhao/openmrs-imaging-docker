@@ -97,7 +97,7 @@ You have two options for running the Imaging module:
 ## Upload the imaging and necessay modules:
  Once the application is running, you will need to upload the required OpenMRS modules from the 'modules' folder within this project:
 
-- imaging-1.1.3-SNAPSHOT.omod
+- imaging-1.1.4-SNAPSHOT.omod
 - appui-1.18.0.omod
 - uicommons-2.26.0.omod
 - uiframework-4.0.0.omod

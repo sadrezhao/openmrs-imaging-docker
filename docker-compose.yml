@@ -26,7 +26,7 @@ services:
     volumes:
       - ./imaging/routes.registry.json:/usr/share/nginx/html/routes.registry.json
       - ./imaging/importmap.json:/usr/share/nginx/html/importmap.json
-      - ./imaging/openmrs-esm-patient-imaging-app-1.0.5:/usr/share/nginx/html/openmrs-esm-patient-imaging-app-1.0.5
+      - ./imaging/openmrs-esm-patient-imaging-app-1.0.6:/usr/share/nginx/html/openmrs-esm-patient-imaging-app-1.0.6
       - ./imaging/spa-assemble-config.json:/usr/share/nginx/html/spa-assemble-config.json
     depends_on:
       - backend

@@ -149,9 +149,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 172452,
+      "size": 173829,
       "sizes": {
-        "javascript": 160705,
+        "javascript": 162082,
         "asset": 11747
       },
       "names": [],
@@ -169,7 +169,34 @@
         "780dc50ae63afe5b.png",
         "eca6caabc443584c.png"
       ],
-      "hash": "1a9e31423798c746",
+      "hash": "3bbd54477848803e",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "reason": "split chunk (cache group: defaultVendors)",
+      "size": 6617605,
+      "sizes": {
+        "javascript": 6617605
+      },
+      "names": [],
+      "idHints": [
+        "vendors"
+      ],
+      "runtime": [
+        "@openmrs/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "176.js"
+      ],
+      "auxiliaryFiles": [
+        "176.js.map"
+      ],
+      "hash": "d9b617f5c6009579",
       "childrenByOrder": {}
     },
     {
@@ -242,7 +269,7 @@
       "auxiliaryFiles": [
         "213.js.map"
       ],
-      "hash": "7a73b9a6ee85fca2",
+      "hash": "bdc4c5f4d29087bb",
       "childrenByOrder": {}
     },
     {
@@ -266,7 +293,7 @@
       "auxiliaryFiles": [
         "229.js.map"
       ],
-      "hash": "f99e8d9756a4db7c",
+      "hash": "d285ca6d572d5c77",
       "childrenByOrder": {}
     },
     {
@@ -290,7 +317,7 @@
       "auxiliaryFiles": [
         "233.js.map"
       ],
-      "hash": "df9abdc96e3c2d3b",
+      "hash": "f04c4bb46228d7f4",
       "childrenByOrder": {}
     },
     {
@@ -298,9 +325,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 1924,
+      "size": 1974,
       "sizes": {
-        "javascript": 1924
+        "javascript": 1974
       },
       "names": [],
       "idHints": [],
@@ -312,7 +339,7 @@
         "300.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "68341a18fabfe37b",
+      "hash": "dc1add48eaef0f8c",
       "childrenByOrder": {}
     },
     {
@@ -339,7 +366,7 @@
       "auxiliaryFiles": [
         "openmrs-esm-patient-imaging-app.js.map"
       ],
-      "hash": "a01a5e4c81504ca9",
+      "hash": "a1b24f24f8f7be01",
       "childrenByOrder": {}
     },
     {
@@ -393,33 +420,6 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "reason": "split chunk (cache group: defaultVendors)",
-      "size": 6611436,
-      "sizes": {
-        "javascript": 6611436
-      },
-      "names": [],
-      "idHints": [
-        "vendors"
-      ],
-      "runtime": [
-        "@openmrs/esm-patient-imaging-app",
-        "main"
-      ],
-      "files": [
-        "389.js"
-      ],
-      "auxiliaryFiles": [
-        "389.js.map"
-      ],
-      "hash": "8b36275e51b230b7",
-      "childrenByOrder": {}
-    },
-    {
-      "rendered": true,
-      "initial": false,
-      "entry": false,
-      "recorded": false,
       "size": 8434,
       "sizes": {
         "javascript": 8434
@@ -436,7 +436,7 @@
       "auxiliaryFiles": [
         "415.js.map"
       ],
-      "hash": "353f73758727d6c2",
+      "hash": "a8e5e2efbba5f3a9",
       "childrenByOrder": {}
     },
     {
@@ -460,7 +460,7 @@
       "auxiliaryFiles": [
         "491.js.map"
       ],
-      "hash": "2c4376f53d431d9d",
+      "hash": "3d722422600d09de",
       "childrenByOrder": {}
     },
     {
@@ -505,7 +505,7 @@
       "auxiliaryFiles": [
         "507.js.map"
       ],
-      "hash": "3446f9361dc2c83e",
+      "hash": "dbd782ed451496a7",
       "childrenByOrder": {}
     },
     {
@@ -553,7 +553,7 @@
       "auxiliaryFiles": [
         "541.js.map"
       ],
-      "hash": "0a1f6760137647a9",
+      "hash": "6b72ec0e92807c2a",
       "childrenByOrder": {}
     },
     {
@@ -623,7 +623,7 @@
       "auxiliaryFiles": [
         "680.js.map"
       ],
-      "hash": "948b3266d8b9748b",
+      "hash": "1af0a83b2f13cf13",
       "childrenByOrder": {}
     },
     {
@@ -647,7 +647,7 @@
       "auxiliaryFiles": [
         "727.js.map"
       ],
-      "hash": "a41982a4924ac846",
+      "hash": "3a965df9933209a0",
       "childrenByOrder": {}
     },
     {
@@ -673,7 +673,7 @@
       "auxiliaryFiles": [
         "732.js.map"
       ],
-      "hash": "ef347842b8e86966",
+      "hash": "a2d77d39bf02760f",
       "childrenByOrder": {}
     },
     {
@@ -681,10 +681,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 7170756,
+      "size": 7178302,
       "sizes": {
         "consume-shared": 252,
-        "javascript": 7137758,
+        "javascript": 7145304,
         "asset": 11747,
         "share-init": 252,
         "runtime": 20747
@@ -706,7 +706,7 @@
         "eca6caabc443584c.png",
         "main.js.map"
       ],
-      "hash": "757e820a9b2fd35e",
+      "hash": "5ffc5a0e31daf80c",
       "childrenByOrder": {}
     },
     {
@@ -730,7 +730,7 @@
       "auxiliaryFiles": [
         "826.js.map"
       ],
-      "hash": "f426898dc506516d",
+      "hash": "eca34011482b140e",
       "childrenByOrder": {}
     },
     {
@@ -757,7 +757,7 @@
       "auxiliaryFiles": [
         "935.js.map"
       ],
-      "hash": "e7b9750d43224bba",
+      "hash": "fd5a8c59973bfdcf",
       "childrenByOrder": {}
     },
     {
