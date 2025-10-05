@@ -2591,7 +2591,7 @@
     ],
     "version": "3.3.1"
   },
-  "@openmrs/esm-patient-imaging-app": {
+  "@zhaosadre/esm-patient-imaging-app": {
     "$schema": "https://json.openmrs.org/routes.schema.json",
     "backendDependencies": {
       "fhir2": ">=1.2",
