@@ -106,7 +106,7 @@ You have two options for running the Imaging module:
         - password: **Admin123**
         - **Note**: If logging in with Admin123 doesn’t work:
             - Use the password **test** to log in.
-            - After logging in, go to your Admin account settings and change the password.
+            - After logging in, go to your admin account settings and change the password.
 
     - Login to **OpenMRS3.x**
         - user: **admin**
