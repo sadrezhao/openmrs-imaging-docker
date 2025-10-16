@@ -868,8 +868,10 @@
   // (new experimental feature in Orthanc 1.10.0)
   "ZipLoaderThreads": 0,
   
-  "ImagingWorklistURL": "http://localhost:3030/openmrs/ws/rest/v1/worklist/requests",
-  "ImagingUpdateRequestStatus": "http://localhost:3030/openmrs/ws/rest/v1/worklist/updaterequeststatus",
+
+  // Configuration of the DICOM worklist integration
+  "ImagingWorklistURL": "http://localhost:2222/openmrs/ws/rest/v1/worklist/requests",
+  "ImagingUpdateRequestStatus": "http://localhost:2222/openmrs/ws/rest/v1/worklist/updaterequeststatus",
   "ImagingWorklistUsername" : "admin",
   "ImagingWorklistPassword" : "Admin123"
 }

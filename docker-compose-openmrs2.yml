@@ -1,0 +1,48 @@
+version: "3.8"
+
+services:
+
+  openmrs:
+    image: openmrs/openmrs-reference-application:2.13
+    restart: always
+    environment:
+      DB_HOST: database2
+      DB_PORT: 3306
+      DB_DATABASE: openmrs
+      DB_USERNAME: openmrs
+      DB_PASSWORD: openmrs
+      JAVA_OPTS: "-Xmx1024m -Xms512m -XX:MaxPermSize=256m"
+    ports:
+      - "2222:8080"
+    depends_on:
+      - database2
+    volumes:
+      - openmrs-data:/openmrs/data
+      - ./imaging/openmrs-runtime.properties:/openmrs/openmrs-runtime.properties:ro
+      - ./imaging/startup-init.sh:/openmrs/startup-init.sh:ro
+      - ./imaging/wait-for-it.sh:/openmrs/wait-for-it.sh:ro
+      - ./imaging/startup.sh:/openmrs/startup.sh:ro
+      - ./csrfguard.properties:/openmrs/data/csrfguard.properties:ro
+
+  database2:
+    image: mariadb:10.11.7
+    restart: unless-stopped
+    command: "mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_general_ci"
+    healthcheck:
+      test: ["CMD-SHELL", "mysql --user=${OMRS_DB_USER:-openmrs} --password=${OMRS_DB_PASSWORD:-openmrs} --execute 'SHOW DATABASES;'"]
+      interval: 3s
+      timeout: 1s
+      retries: 5
+    environment:
+      MYSQL_DATABASE: openmrs
+      MYSQL_USER: openmrs
+      MYSQL_PASSWORD: openmrs
+      MYSQL_ROOT_PASSWORD: openmrs
+    ports:
+      - "3307:3306"
+    volumes:
+      - database2-data:/var/lib/mysql
+
+volumes:
+  openmrs-data: ~
+  database2-data: ~
