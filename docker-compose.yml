@@ -11,6 +11,8 @@ services:
       - backend
     ports:
       - "80:80"
+    networks:
+      - openmrs3x-net
 
   frontend:
     image: openmrs/openmrs-reference-application-3-frontend:${TAG:-qa}
@@ -30,6 +32,8 @@ services:
       - ./imaging/spa-assemble-config.json:/usr/share/nginx/html/spa-assemble-config.json
     depends_on:
       - backend
+    networks:
+      - openmrs3x-net
 
   backend:
     image: openmrs/openmrs-reference-application-3-backend:${TAG:-qa}
@@ -55,6 +59,8 @@ services:
       - "3030:8080"
     extra_hosts:
       - "host.docker.internal:host-gateway"
+    networks:
+      - openmrs3x-net
 
   # MariaDB
   db:
@@ -73,7 +79,12 @@ services:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-openmrs}
     volumes:
       - db-data:/var/lib/mysql
+    networks:
+      - openmrs3x-net
 
 volumes:
   openmrs-data: ~
   db-data: ~
+
+networks:
+  openmrs3x-net:
