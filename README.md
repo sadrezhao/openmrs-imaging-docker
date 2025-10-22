@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project provides a Docker Compose setup for the OpenMRS 3.x Imaging frontend. It contains all the configuration files and libraries needed to run the application with Orthanc integration.
+This project provides a Docker Compose setup for the OpenMRS2.x and OpenMRS 3.x Imaging module. It contains all the configuration files and libraries needed to run the application with Orthanc integration.
 
 ## Configure Your Local Orthanc Server
 
@@ -13,7 +13,7 @@ Update your orthanc setup by replacing and adding the following files:
 - OpenMRS2.x Docker container -> use port **2222**
 - OpenMRS3.x Docker container -> use port **3030**
 
-- Copy the Orthanc worklist script:
+- Copy the Orthanc worklist script in the folder `orthanc`:
 
     ```bash
     cp orthancWorklist.py /etc/orthanc/
@@ -36,81 +36,64 @@ To connect with Orthanc, add the following configuration:
 
 ![Orthanc Configuration](/images/orthancConfiguration.png)
 
+## Running the Docker Container
 
-## Running the Container with Docker
+### Start the Docker container for OpenMRS 2.x:
+  ```bash
+  docker compose -f docker-compose-openmrs2.yml up
+  ```
+  **Note**
+  - The installation process may take some time.
+  - In some cases, you may need to stop the container and restart it to complete the setup successfully.
 
-- Start the Docker container:
-    > - For **OpenMRS3.x**
-        ```bash
-        docker compose up
-        ```
-    > - For **OpenMRS2.x**
-        ```bash
-        docker compose -f docker-compose-openmrs2.yml up
-        ```
+### Login to **OpenMRSMRS 2.x**
+- User: **admin**
+- Password: **Admin123**
+- **Note**: If logging in with Admin123 doesn’t work:
+    - Use the password **test** to log in.
+    - After logging in, go to your admin account settings and change the password.
 
-    **Note**  
-    - The installation process may take some time. You can monitor the progress of the setup by visiting
-    - In some cases, you may need to stop the container and restart it to complete the setup successfully. 
 
-    ```bash
-    http://localhost:3030/openmrs/initialsetup
-    ```
-    ![Installation](/images/installProcess.png)
+### Start the Docker container for OpenMRS 3.x:
+  ```bash
+  docker-compose up
+  ```
+  > **Note**
+  - The installation process may take some time. You can monitor the progress of the setup by visiting
+  ```bash
+  http://localhost:3030/openmrs/initialsetup
 
+![Installation](figures/installProcess.png)
+
+- In some cases, you may need to stop the container and restart it to complete the setup successfully.
 - Remove the container
-    - For **OpenMRS3.x**
-        ```bash
-        docker compose down    
-        ```
-    - For **OpenMRS2.x**
-        ```bash
-        docker compose -f docker-compose-openmrs2.yml down
-        ```
-## Running the Imaging Module
+```bash
+docker-compose down    
+```
 
+### Starting OpenMRS with the imaging module
 You have two options for running the Imaging module:
 
-- Run via Docker (frontend image)
-
-    - Start the front for **OpenMRS2.x**:
-        ```bash
-        http://localhost:2222/openmrs/
-        ```
-
-    - Start the frontend for **OpenMRS3.x**:
-        ```bash
-        http://localhost/openmrs/spa
-        ```
+- Running via Docker (micro-frontend image)
+    - Start the micro-frontend:
+      ```bash
+      http://localhost/openmrs/spa
+      ```
     - Validate backend connection:
-        ```bash
-        http://localhost:3030/openmrs/
-
-        ```
-    **Note:**
+      ```bash
+      http://localhost:3030/openmrs/
+      ```
+    - Login to **OpenMRS 3.x**
+      - User: **admin**
+      - Password: **Admin123**
+    
+    > **Note**
     You may experience display issues within the application after importing the new module into Docker or updating to a new release. To resolve these issues, follow these steps:
-    - Stop the containers: 
-        - For **OpenMRS2.x**: `docker compose -f docker-compose-openmrs2.yml down`
-        - For **OpenMRS3.x**: `docker compose down`
-
-    - Restart the containers: 
-        - For **OpenMRS2.x**: `docker compose -f docker-compose-openmrs2.yml up`
-        - For **OpenMRS3.x**: `docker compose up`
-
+    - Stop the containers: `docker-compose down`
+    - Restart the containers: `docker-compose up`
     - If problems persist, clear your browser data:
-        - Cookies and site data (e.g., 134 MB)
-        - Cached files and pages (e.g., 393 MB)
-
-    - Login to **OpenMRSMRS 2.x**
-        - user: **admin**
-        - password: **Admin123**
-        - **Note**: If logging in with Admin123 doesn’t work:
-            - Use the password **test** to log in.
-            - After logging in, go to your admin account settings and change the password.
-
-    - Login to **OpenMRS3.x**
-        - user: **admin**
-        - password: **Admin123**
+      - Cookies and site data (e.g., 134 MB)
+      - Cached files and pages (e.g., 393 MB)
 
 
 - Run the frontend locally (using Docker backend):
@@ -139,6 +122,15 @@ Link: http://localhost:8080/openmrs/admin/modules/module.list#markAllAsRead
 ![Upload moudles](/images/uploadModule.png)
 
 > **Note:** You need to click `Start All` to update all modules.
+
+## Deploy the new version of the micro-frontend application to Docker
+1. Copy the new version of micro-frontend application into the `imaging`.
+1. Copy the entire contents of the `dist` file in your project.
+1. Update the `@zhaosadre/esm-patient-imaging-app` section with your updated `dist` contents and add a `"version": "newVersionNumber"` property.
+1. Update the `spa-assemble-config.json` file in the `imaging` folder: 
+  Change `"@zhaosadre/esm-patient-imaging-app": "1.0.6"` to `"@zhaosadre/esm-patient-imaging-app": "newVersionNumber"`
+1. Update the `importmap.json` file in the `imaging` folder: 
+  Change `"@zhaosadre/esm-patient-imaging-app": "./openmrs-esm-patient-imaging-app-1.0.6/openmrs-esm-patient-imaging-app.js"` to `"@zhaosadre/esm-patient-imaging-app": "./openmrs-esm-patient-imaging-app-newVersionNumber/openmrs-esm-patient-imaging-app.js"`.
 
 ## Links:
 - Imaging frondend for OpenMRS3.x: https://github.com/sadrezhao/openmrs-esm-patient-imaging-app
