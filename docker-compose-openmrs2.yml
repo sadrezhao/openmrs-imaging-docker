@@ -16,6 +16,7 @@ services:
       - database2
     volumes:
       - openmrs2-data:/openmrs/data
+      # All file must be executable: chmod +x <filename>
       - ./imaging/openmrs-runtime.properties:/openmrs/openmrs-runtime.properties:ro
       - ./imaging/startup-init.sh:/openmrs/startup-init.sh:ro
       - ./imaging/wait-for-it.sh:/openmrs/wait-for-it.sh:ro
