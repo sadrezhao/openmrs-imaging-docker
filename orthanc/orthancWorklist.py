@@ -1,12 +1,22 @@
+# This file is part of [Integration of Orthanc with OpenMRS].
+#
+# Integration of Orthanc with OpenMRS is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Integration of Orthanc with OpenMRS is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with [Integration of Orthanc with OpenMRS]. If not, see <https://www.gnu.org/licenses/>.
+
 import json
 import orthanc
 import requests
 
-## Typical configuration:
-# worklistUsername = "admin"
-# worklistPassword =  "Admin123"
-# getWorklistURL = "http://localhost:7070/openmrs/ws/rest/v1/imaging/worklist/requests"
-# updateRequestStatusURL = "http://localhost:7070/openmrs/ws/rest/v1/imaging/worklist/updaterequeststatus"
 
 def OnWorkList(answers, query, issuerAet, calledAet):
     # Get query in json format and write it to log
@@ -27,8 +37,8 @@ def OnWorkList(answers, query, issuerAet, calledAet):
         orthanc.LogWarning(orthanc.DicomBufferToJson(
             responseDicom, orthanc.DicomToJsonFormat.SHORT, orthanc.DicomToJsonFlags.NONE, 0))
 
-        # Thie code only for test:
-        # Save the DICOM buffer to a file
+        #Thie code only for test:
+        #Save the DICOM buffer to a file
         # with open("/tmp/worklist_test.wl", 'wb') as f:
         #     f.write(responseDicom)
 

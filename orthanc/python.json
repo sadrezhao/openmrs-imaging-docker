@@ -1,7 +1,4 @@
 {
-  /**
-   * Configuration to run Python script as Orthanc plugins.
-   **/
   "PythonScript": "/etc/orthanc/orthancWorklist.py",
   "PythonVerbose" : false
 }
