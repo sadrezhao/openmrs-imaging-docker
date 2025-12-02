@@ -2627,6 +2627,14 @@
         "component": "studyDeleteConfirmationDialog"
       },
       {
+        "name": "study-unlink-confirmation-dialog",
+        "component": "studyUnlinkConfirmationDialog"
+      },
+      {
+        "name": "matching-study-confirmation-dialog",
+        "component": "matchingStudyConfirmationDialog"
+      },
+      {
         "name": "series-delete-confirmation-dialog",
         "component": "seriesDeleteConfirmationDialog"
       },
@@ -2643,6 +2651,7 @@
         "component": "instancePreviewDialog"
       }
     ],
+    
     "workspaces": [
       {
         "name": "upload-studies-form-workspace",
@@ -2658,7 +2667,7 @@
       },
       {
         "name": "assign-studies-form-workspace",
-        "title": "Assign studies",
+        "title": "Link studies",
         "component": "assignStudiesFormWorkspace",
         "type": "form",
         "canMaximize": true,
@@ -2679,6 +2688,6 @@
         "canMaximize": true
       }
     ],
-    "version": "1.0.6"
+    "version": "1.0.7"
   }
 }

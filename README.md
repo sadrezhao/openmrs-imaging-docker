@@ -122,7 +122,7 @@ To connect with Orthanc, add the following configuration:
 ## Upload the imaging and necessay modules:
  Once the application is running, you will need to upload the required OpenMRS modules from the 'modules' folder within this project:
 
-- imaging-1.1.5-SNAPSHOT.omod
+- imaging-1.1.6.omod
 - appui-1.18.0.omod
 - uicommons-2.26.0.omod
 - uiframework-4.0.0.omod
@@ -140,9 +140,9 @@ Link: http://localhost:8080/openmrs/admin/modules/module.list#markAllAsRead
 1. Copy the entire contents of the `dist` file in your project.
 1. Update the `@zhaosadre/esm-patient-imaging-app` section with your updated `dist` contents and add a `"version": "newVersionNumber"` property.
 1. Update the `spa-assemble-config.json` file in the `imaging` folder: 
-  Change `"@zhaosadre/esm-patient-imaging-app": "1.0.6"` to `"@zhaosadre/esm-patient-imaging-app": "newVersionNumber"`
+  Change `"@zhaosadre/esm-patient-imaging-app": "1.0.7"` to `"@zhaosadre/esm-patient-imaging-app": "newVersionNumber"`
 1. Update the `importmap.json` file in the `imaging` folder: 
-  Change `"@zhaosadre/esm-patient-imaging-app": "./openmrs-esm-patient-imaging-app-1.0.6/openmrs-esm-patient-imaging-app.js"` to `"@zhaosadre/esm-patient-imaging-app": "./openmrs-esm-patient-imaging-app-newVersionNumber/openmrs-esm-patient-imaging-app.js"`.
+  Change `"@zhaosadre/esm-patient-imaging-app": "./openmrs-esm-patient-imaging-app-1.0.7/openmrs-esm-patient-imaging-app.js"` to `"@zhaosadre/esm-patient-imaging-app": "./openmrs-esm-patient-imaging-app-newVersionNumber/openmrs-esm-patient-imaging-app.js"`.
 
 ## Links:
 - Imaging frondend for OpenMRS3.x: https://github.com/sadrezhao/openmrs-esm-patient-imaging-app
