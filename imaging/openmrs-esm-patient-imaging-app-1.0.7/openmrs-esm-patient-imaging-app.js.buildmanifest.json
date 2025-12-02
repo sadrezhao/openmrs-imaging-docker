@@ -5,9 +5,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 5306,
+      "size": 6128,
       "sizes": {
-        "javascript": 5306
+        "javascript": 6128
       },
       "names": [],
       "idHints": [],
@@ -19,7 +19,7 @@
         "55.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "a8300ed3c03ae4d3",
+      "hash": "36520558bb3cfbba",
       "childrenByOrder": {}
     },
     {
@@ -127,9 +127,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 5306,
+      "size": 6128,
       "sizes": {
-        "javascript": 5306
+        "javascript": 6128
       },
       "names": [],
       "idHints": [],
@@ -141,7 +141,7 @@
         "99.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "06c07a22c310999e",
+      "hash": "cc7a162ea00c18cd",
       "childrenByOrder": {}
     },
     {
@@ -149,9 +149,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 173838,
+      "size": 178392,
       "sizes": {
-        "javascript": 162091,
+        "javascript": 166645,
         "asset": 11747
       },
       "names": [],
@@ -169,7 +169,7 @@
         "780dc50ae63afe5b.png",
         "eca6caabc443584c.png"
       ],
-      "hash": "7220a515305b2698",
+      "hash": "da6317619d9099c5",
       "childrenByOrder": {}
     },
     {
@@ -231,9 +231,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 5306,
+      "size": 6128,
       "sizes": {
-        "javascript": 5306
+        "javascript": 6128
       },
       "names": [],
       "idHints": [],
@@ -245,7 +245,7 @@
         "197.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "ea66df90dcdc2dec",
+      "hash": "80078ea50f990c2e",
       "childrenByOrder": {}
     },
     {
@@ -269,7 +269,7 @@
       "auxiliaryFiles": [
         "213.js.map"
       ],
-      "hash": "f08d096f288196e7",
+      "hash": "a36b77042aa5d6e2",
       "childrenByOrder": {}
     },
     {
@@ -293,7 +293,7 @@
       "auxiliaryFiles": [
         "229.js.map"
       ],
-      "hash": "3a77b824735ef245",
+      "hash": "cc3e8c03aeb845ca",
       "childrenByOrder": {}
     },
     {
@@ -317,7 +317,7 @@
       "auxiliaryFiles": [
         "233.js.map"
       ],
-      "hash": "03c6f8fe29de708a",
+      "hash": "48934a580a1140bb",
       "childrenByOrder": {}
     },
     {
@@ -325,9 +325,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 1974,
+      "size": 1996,
       "sizes": {
-        "javascript": 1974
+        "javascript": 1996
       },
       "names": [],
       "idHints": [],
@@ -339,7 +339,7 @@
         "300.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "0dd53e439b2862d6",
+      "hash": "13f933bb63230972",
       "childrenByOrder": {}
     },
     {
@@ -347,9 +347,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 5306,
+      "size": 6128,
       "sizes": {
-        "javascript": 5306
+        "javascript": 6128
       },
       "names": [],
       "idHints": [],
@@ -361,7 +361,7 @@
         "335.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "de11db8a6de1ef8e",
+      "hash": "4baa8476f8c83ab5",
       "childrenByOrder": {}
     },
     {
@@ -369,9 +369,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 7160,
+      "size": 8483,
       "sizes": {
-        "javascript": 7160
+        "javascript": 8483
       },
       "names": [],
       "idHints": [],
@@ -385,7 +385,31 @@
       "auxiliaryFiles": [
         "353.js.map"
       ],
-      "hash": "e2b91a9852be9e9c",
+      "hash": "00318ef8c5da573a",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 11610,
+      "sizes": {
+        "javascript": 11610
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@zhaosadre/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "393.js"
+      ],
+      "auxiliaryFiles": [
+        "393.js.map"
+      ],
+      "hash": "00741a194e7b49f0",
       "childrenByOrder": {}
     },
     {
@@ -409,7 +433,7 @@
       "auxiliaryFiles": [
         "415.js.map"
       ],
-      "hash": "07a479d083ccb612",
+      "hash": "1eb9260e6dba1253",
       "childrenByOrder": {}
     },
     {
@@ -417,9 +441,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 36535,
+      "size": 40561,
       "sizes": {
-        "javascript": 36535
+        "javascript": 40561
       },
       "names": [],
       "idHints": [],
@@ -433,7 +457,7 @@
       "auxiliaryFiles": [
         "491.js.map"
       ],
-      "hash": "d7d494a7bb3afbae",
+      "hash": "20e26d5ca94b1f58",
       "childrenByOrder": {}
     },
     {
@@ -454,7 +478,7 @@
       ],
       "files": [],
       "auxiliaryFiles": [],
-      "hash": "e5c593441bf69897",
+      "hash": "cb403782c3e7be0e",
       "childrenByOrder": {}
     },
     {
@@ -462,9 +486,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 24556,
+      "size": 24573,
       "sizes": {
-        "javascript": 24556
+        "javascript": 24573
       },
       "names": [],
       "idHints": [],
@@ -478,7 +502,7 @@
       "auxiliaryFiles": [
         "507.js.map"
       ],
-      "hash": "8afc89e0d8cca618",
+      "hash": "c716a2a769438bd4",
       "childrenByOrder": {}
     },
     {
@@ -526,7 +550,7 @@
       "auxiliaryFiles": [
         "541.js.map"
       ],
-      "hash": "d4b13492078b4458",
+      "hash": "c10081df0c937104",
       "childrenByOrder": {}
     },
     {
@@ -577,7 +601,7 @@
       "auxiliaryFiles": [
         "openmrs-esm-patient-imaging-app.js.map"
       ],
-      "hash": "dff520b34b1e4fa2",
+      "hash": "5956fc48c068d37c",
       "childrenByOrder": {}
     },
     {
@@ -585,9 +609,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 5306,
+      "size": 6128,
       "sizes": {
-        "javascript": 5306
+        "javascript": 6128
       },
       "names": [],
       "idHints": [],
@@ -599,7 +623,7 @@
         "652.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "a4559c38629e233c",
+      "hash": "d7669dfcd645f49f",
       "childrenByOrder": {}
     },
     {
@@ -623,7 +647,7 @@
       "auxiliaryFiles": [
         "680.js.map"
       ],
-      "hash": "65e79614935b457e",
+      "hash": "380c28a31c11703e",
       "childrenByOrder": {}
     },
     {
@@ -647,7 +671,7 @@
       "auxiliaryFiles": [
         "727.js.map"
       ],
-      "hash": "2de162c28bf9575b",
+      "hash": "97845775e5c31ecd",
       "childrenByOrder": {}
     },
     {
@@ -678,13 +702,37 @@
     },
     {
       "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 7160,
+      "sizes": {
+        "javascript": 7160
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "@zhaosadre/esm-patient-imaging-app",
+        "main"
+      ],
+      "files": [
+        "734.js"
+      ],
+      "auxiliaryFiles": [
+        "734.js.map"
+      ],
+      "hash": "67cc976ab8f49475",
+      "childrenByOrder": {}
+    },
+    {
+      "rendered": true,
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 7178545,
+      "size": 7183099,
       "sizes": {
         "consume-shared": 252,
-        "javascript": 7145539,
+        "javascript": 7150093,
         "asset": 11747,
         "share-init": 252,
         "runtime": 20755
@@ -706,7 +754,7 @@
         "eca6caabc443584c.png",
         "main.js.map"
       ],
-      "hash": "4e19f84e90db7b05",
+      "hash": "30ce72d93d1885ef",
       "childrenByOrder": {}
     },
     {
@@ -714,9 +762,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 8786,
+      "size": 8843,
       "sizes": {
-        "javascript": 8786
+        "javascript": 8843
       },
       "names": [],
       "idHints": [],
@@ -730,7 +778,7 @@
       "auxiliaryFiles": [
         "826.js.map"
       ],
-      "hash": "fb1c77c02bd66e3b",
+      "hash": "6e70f78169b9e59d",
       "childrenByOrder": {}
     },
     {
